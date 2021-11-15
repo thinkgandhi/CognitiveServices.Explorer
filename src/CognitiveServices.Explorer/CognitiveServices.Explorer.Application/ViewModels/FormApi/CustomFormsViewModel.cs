@@ -72,7 +72,7 @@ namespace CognitiveServices.Explorer.Application.ViewModels.FormApi
         public async Task LoadLatestConfig()
         {
             var profile = await _mediator.Send(new GetCurrentProfileQuery());
-            FormApiConfig = profile?.FormApiConfig;
+            //FormApiConfig = profile?.FormApiConfig;
 
             IsFormApiAvailable = FormApiConfig?.IsConfigured() == true;
             Console.WriteLine($"{FormApiConfig?.BaseUrl} => {IsFormApiAvailable}");

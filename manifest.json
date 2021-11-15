@@ -1,6 +1,6 @@
 {
-  "name": "Cognitive Studio",
-  "short_name": "Cognitive Studio",
+  "name": "Face Recognition",
+  "short_name": "Face Recognition",
   "start_url": "/CognitiveServices.Explorer/",
   "display": "standalone",
   "theme_color": "#8AD",

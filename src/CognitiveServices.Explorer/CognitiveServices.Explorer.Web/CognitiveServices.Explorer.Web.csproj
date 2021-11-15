@@ -9,6 +9,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Pages\Text\Components\**" />
+    <Content Remove="Pages\Text\Components\**" />
+    <EmbeddedResource Remove="Pages\Text\Components\**" />
+    <None Remove="Pages\Text\Components\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\Forms\Analyze.razor.cs" />
+    <Compile Remove="Pages\Text\Text.razor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Forms\Analyze.razor" />
+    <Content Remove="Pages\Forms\GetStarted.razor" />
+    <Content Remove="Pages\Speech\ProtoType.razor" />
+    <Content Remove="Pages\Text\Text.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
   </ItemGroup>
 
@@ -51,5 +70,10 @@
   <!-- Embedd local appsettings -->
   <ItemGroup Condition="$(Configuration)=='Debug'">
     <EmbeddedResource Include="appsettings.Local.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\Forms\" />
+    <Folder Include="Pages\Speech\" />
+    <Folder Include="Pages\Text\" />
   </ItemGroup>
 </Project>

@@ -55,7 +55,7 @@
                     <MatOption Value="@FaceApiConstants.DetectModelV01">v01</MatOption>
                     <MatOption Value="@FaceApiConstants.DetectModelV02">v02 (recommended)</MatOption>
                 </MatSelect>
-                <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/face/face-api-how-to-topics/specify-detection-model" target="_blank">More details</a>
+                @*<a href="https://docs.microsoft.com/en-us/azure/cognitive-services/face/face-api-how-to-topics/specify-detection-model" target="_blank">More details</a>*@
             </div>
 
             <div>
@@ -63,7 +63,7 @@
                     <MatOption Value="@FaceApiConstants.RecognitionModelV01">v01 (group default)</MatOption>
                     <MatOption Value="@FaceApiConstants.RecognitionModelV02">v02</MatOption>
                 </MatSelect>
-                <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/face/face-api-how-to-topics/specify-recognition-model" target="_blank">More details</a>
+                @*<a href="https://docs.microsoft.com/en-us/azure/cognitive-services/face/face-api-how-to-topics/specify-recognition-model" target="_blank">More details</a>*@
             </div>
 
             <div class="mt-2">
@@ -180,7 +180,7 @@
         <div class="alert alert-danger" role="alert">@viewModel.Error</div>
     }
 
-    <CurlRequestList Requests="viewModel.Requests" ServiceConfig="viewModel.FaceApiConfig" />
+    @*<CurlRequestList Requests="viewModel.Requests" ServiceConfig="viewModel.FaceApiConfig" />*@
 </div>
 
 @code {

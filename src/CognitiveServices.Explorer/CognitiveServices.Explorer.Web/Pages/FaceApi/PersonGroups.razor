@@ -49,7 +49,7 @@
 
     <MatButton Raised="true" Icon="add" OnClick="@ShowCreateGroupDialog">Create group</MatButton>
     <MatButton Raised="true" Icon="refresh" OnClick="@viewModel.GetGroups">Refresh</MatButton>
-    <CurlRequestList Requests="viewModel.Requests" ServiceConfig="viewModel.FaceApiConfig" />
+    @*<CurlRequestList Requests="viewModel.Requests" ServiceConfig="viewModel.FaceApiConfig" />*@
 </div>
 
 <MatDialog @bind-IsOpen="@_createOrEditGroupDialogOpen">

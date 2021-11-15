@@ -12,8 +12,8 @@
     <MatDrawer @bind-Opened="@_navMenuOpened">
         <header class="drawer-header">
             <div class="drawer-logo">
-                <img alt="Cognitive Studio" class="logo-img" src="@appConfig.TitleImg" title="Cognitive Studio">
-                <a class="miniHover ml-2" href="@homeUrl" title="Cognitive Studio">@appConfig.Title</a>
+                <img alt="Face Recognition" class="logo-img" src="@appConfig.TitleImg" title="Face Recognition">
+                <a class="miniHover ml-2" href="@homeUrl" title="Face Recognition">@appConfig.Title</a>
             </div>
             @*<UserProfile />*@
         </header>
@@ -55,13 +55,13 @@
                         </div>
                     </MatAppBarSection>
                     <MatAppBarSection Align="@MatAppBarSectionAlign.End">
-                        <MatTooltip Tooltip="Follow me on Twitter">
+                        <!--<MatTooltip Tooltip="Follow me on Twitter">-->
                             <!-- TODO: Should open in a new tab. -->
-                            <MatIconButton Link="https://twitter.com/jernej_kavka" RefBack="@context" target="_blank"><i class="fa fa-twitter"></i></MatIconButton>
+                            <!--<MatIconButton Link="" RefBack="@context" target="_blank"><i class="fa fa-twitter"></i></MatIconButton>
                         </MatTooltip>
                         <MatTooltip Tooltip="Github Repository">
-                            <MatIconButton Link="https://github.com/jernejk/CognitiveServices.Explorer" RefBack="@context" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></MatIconButton>
-                        </MatTooltip>
+                            <MatIconButton Link="" RefBack="@context" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></MatIconButton>
+                        </MatTooltip>-->
                         @*<Login></Login>*@
                     </MatAppBarSection>
                 </MatAppBarRow>
@@ -72,9 +72,9 @@
                     @Body
                 </section>
                 <footer class="page-footer">
-                    <div class="flex-1">
-                        © 2020 <a href="https://jkdev.me" target="_blank">JK</a>, template by <a href="//blazorboilerplate.com" target="_blank">Blazor Boilerplate</a> @(appConfig.IsDev ? $"Environment: {appConfig.Environment}" : "")
-                    </div>
+                    @*<div class="flex-1">
+                        © 2020 <a href="" target="_blank">JK</a>, template by <a href="//blazorboilerplate.com" target="_blank">Blazor Boilerplate</a> @(appConfig.IsDev ? $"Environment: {appConfig.Environment}" : "")
+                    </div>*@
                 </footer>
             </MatAppBarContent>
         </MatAppBarContainer>

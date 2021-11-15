@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CognitiveServices.Explorer.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CognitiveServices.Explorer.Application", "CognitiveServices.Explorer.Application\CognitiveServices.Explorer.Application.csproj", "{B67A648C-53F9-469D-B122-0F675B6745F6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CognitiveServices.Explorer.Application.Tests", "CognitiveServices.Explorer.Application.Tests\CognitiveServices.Explorer.Application.Tests.csproj", "{F78F1C73-AFC1-42EA-BA6C-DCC4D6A9C4A4}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHubContent", "GitHubContent", "{D203B4F6-3805-48C2-BB18-17A825EAD7A8}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\.gitignore = ..\..\.gitignore
@@ -51,10 +49,6 @@ Global
 		{B67A648C-53F9-469D-B122-0F675B6745F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B67A648C-53F9-469D-B122-0F675B6745F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B67A648C-53F9-469D-B122-0F675B6745F6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F78F1C73-AFC1-42EA-BA6C-DCC4D6A9C4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F78F1C73-AFC1-42EA-BA6C-DCC4D6A9C4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F78F1C73-AFC1-42EA-BA6C-DCC4D6A9C4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F78F1C73-AFC1-42EA-BA6C-DCC4D6A9C4A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

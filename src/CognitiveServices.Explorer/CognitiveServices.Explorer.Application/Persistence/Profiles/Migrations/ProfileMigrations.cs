@@ -32,8 +32,8 @@ namespace CognitiveServices.Explorer.Application.Persistence.Profiles.Migrations
             var container = new ProfileStorageContainer();
             
             await MigrateServiceConfigV1(container, "FaceApi", (p, c) => p.FaceApiConfig = c);
-            await MigrateServiceConfigV1(container, "TextApi", (p, c) => p.TextApiConfig = c);
-            await MigrateServiceConfigV1(container, "SpeechApi", (p, c) => p.SpeechApiConfig = c);
+            //await MigrateServiceConfigV1(container, "TextApi", (p, c) => p.TextApiConfig = c);
+            //await MigrateServiceConfigV1(container, "SpeechApi", (p, c) => p.SpeechApiConfig = c);
 
             Profile selectedProfile;
             var selectedFaceApi = await _localStorageService.GetItemAsync<string>("cs-config-profile-FaceApi-selected");

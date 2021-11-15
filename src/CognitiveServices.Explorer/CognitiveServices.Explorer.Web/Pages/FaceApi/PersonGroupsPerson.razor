@@ -51,7 +51,7 @@
     <MatButton Raised="true" Icon="add" OnClick="@ShowCreatePersonDialog">Create person</MatButton>
     <MatButton Raised="true" Icon="refresh" OnClick="@viewModel.GetPeople">Refresh</MatButton>
     <MatButton Raised="true" Icon="memory" OnClick="@ShowTrainingPopup">Training</MatButton>
-    <CurlRequestList Requests="viewModel.Requests" ServiceConfig="viewModel.FaceApiConfig" />
+    @*<CurlRequestList Requests="viewModel.Requests" ServiceConfig="viewModel.FaceApiConfig" />*@
 </div>
 
 <MatDialog @bind-IsOpen="@_createOrEditPersonDialogOpen">

@@ -78,7 +78,7 @@ namespace CognitiveServices.Explorer.Application.ViewModels.TextApi
         public async Task LoadLatestConfig()
         {
             var profile = await _mediator.Send(new GetCurrentProfileQuery());
-            TextApiConfig = profile?.TextApiConfig;
+            //TextApiConfig = profile?.TextApiConfig;
 
             IsTextApiAvailable = TextApiConfig?.IsConfigured() == true;
             Console.WriteLine($"{TextApiConfig?.BaseUrl} => {IsTextApiAvailable}");
